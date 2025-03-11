@@ -1,0 +1,39 @@
+{
+    "name": "protection-bot",
+    "version": "1.0.0",
+    "description": "A state-of-the-art Discord bot providing robust server protection (anti-raid, anti-spam, anti-link, anti-profanity, and more) with a consistent embed-based UI.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/smokeytempo/protection-bot.git"
+    },
+    "keywords": [
+      "discord",
+      "discord-bot",
+      "protection",
+      "anti-spam",
+      "anti-raid",
+      "anti-link",
+      "nodejs",
+      "embed"
+    ],
+    "author": "SmokeyDevGR",
+    "license": "MIT",
+    "engines": {
+      "node": ">=16.9.0"
+    },
+    "dependencies": {
+      "discord.js": "^14.11.0",
+      "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22",
+      "eslint": "^8.43.0",
+      "pm2": "^5.2.2"
+    }
+  }
+  

@@ -1,0 +1,40 @@
+{
+    "antiSpam": {
+      "threshold": 5,
+      "duration": 10,
+      "punishment": "mute"
+    },
+    "antiRaid": {
+      "joinThreshold": 5,
+      "timeFrame": 10,
+      "punishment": "kick"
+    },
+    "antiProfanity": {
+      "bannedWords": ["badword1", "badword2"]
+    },
+    "antiAdvertising": {
+      "patterns": ["discord.gg", "invite.me"],
+      "punishment": "delete"
+    },
+    "antiMentionSpam": {
+      "threshold": 5,
+      "punishment": "mute"
+    },
+    "antiNuke": {
+      "channelDeletionThreshold": 3,
+      "roleDeletionThreshold": 3,
+      "punishment": "ban"
+    },
+    "antiPhishing": {
+      "patterns": ["bit.ly", "tinyurl.com"],
+      "punishment": "delete"
+    },
+    "antiDuplicate": {
+      "similarityThreshold": 0.9,
+      "punishment": "delete"
+    },
+    "antiBotAdditions": {
+      "allowed": []
+    }
+  }
+  
